@@ -1,0 +1,68 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    50% {
+        opacity: 0.3;
+    }
+    70% {
+        opacity: 0.4;
+    }
+
+    85% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+.nanummyeongjo * {
+ font-family: 'Nanum Myeongjo', serif;
+}
+
+
+.App {
+    text-align: center; 
+    margin-top: 15px;
+    font-family: 'Nanum Myeongjo', serif;
+    color : #707070;
+    letter-spacing: -1.3px;
+    font-size: 13px;
+    animation: fadeIn 700ms ease-out;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.introduce {
+    margin-top: 40px;
+}
+
+.line {
+    margin-top: 60px;
+    width: 600px;
+    color : #707070;
+}
+
+.img {
+    width: 240px;
+    margin-top: 30px;
+}
